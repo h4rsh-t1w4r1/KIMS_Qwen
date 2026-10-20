@@ -1,0 +1,20 @@
+{
+  "slug": "8-week-hyrox-training-plan",
+  "h1": "An 8 week Hyrox training plan for beginners",
+  "metaTitle": "8 Week Hyrox Training Plan for Beginners | [Business], [Area]",
+  "metaDescription": "A week-by-week plan with the sessions we coach in [Area], what to eat around training, and how to book a free first week.",
+  "intro": "Written by [coach name] after [N] race seasons coaching members in [Area]. Replace this with a real introduction.",
+  "sections": [
+    { "heading": "Who this plan is for", "body": "Real, specific content only. No filler." },
+    { "heading": "The eight weeks", "body": "A table or checklist that is genuinely useful." }
+  ],
+  "faq": [
+    { "q": "A question a real customer asked", "a": "The real answer." }
+  ],
+  "related": ["race-day-nutrition"],
+  "cta": { "label": "Book your free first week", "channel": "whatsapp" },
+  "reviewer": "TODO_CLIENT (required for health, money and legal topics)",
+  "lastReviewed": "2026-10-07",
+  "sources": [],
+  "localAngle": "A real local detail: the venue, timings, nearby station."
+}

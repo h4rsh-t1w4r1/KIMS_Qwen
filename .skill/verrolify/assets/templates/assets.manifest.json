@@ -1,0 +1,18 @@
+{
+  "_help": "Declare EVERY asset the page needs. scripts/verify_assets.py checks each one exists, is real, and is referenced by the code. type: image|video|font|audio|other. source: generated|client|licensed|manual. status: pending|ready|rejected. Remove this key when done.",
+  "project": "client-slug",
+  "assets": [
+    {
+      "id": "hero-poster",
+      "type": "image",
+      "path": "public/assets/hero-poster.webp",
+      "required": true,
+      "min_bytes": 20000,
+      "min_width": 1200,
+      "alpha": false,
+      "source": "client",
+      "status": "pending",
+      "notes": "Exact description of what this image shows, from the brief"
+    }
+  ]
+}
