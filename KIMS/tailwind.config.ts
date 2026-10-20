@@ -14,8 +14,8 @@ const config: Config = {
         goldsoft: "#A98B4F",
       },
       fontFamily: {
-        display: ["var(--font-display)", "serif"],
-        body: ["var(--font-body)", "Georgia", "serif"],
+        display: ["var(--font-serif)", "Georgia", "serif"],
+        body: ["var(--font-serif)", "Georgia", "serif"],
         mono: ["var(--font-mono)", "monospace"],
       },
     },
