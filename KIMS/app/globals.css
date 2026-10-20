@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --canvas: #F4F1EA;
+  --ink: #1C2320;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: var(--canvas);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: #1C2320;
+  color: #F4F1EA;
+  padding: 12px 20px;
+}
+
+.skip-link:focus {
+  left: 16px;
+  top: 16px;
+}
+
+*:focus-visible {
+  outline: 2px solid #7A5C1E;
+  outline-offset: 3px;
+}
